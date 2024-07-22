@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,207,166,1) 0%, rgba(38,230,205,1) 30%, rgba(5,149,168,1) 100%, rgba(0,212,255,1) 100%);    padding: 50px;
+    margin:100px 200px;
+}
+.box-container, .box-container-side{
+    display: flex;
+    justify-content: center;
+    box-shadow: aquamarine;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+}.middle-containe{
+    display: block;
+}.head{
+    background-color: black;
+    color:white;
+    height: 125px;
+    width:230px;
+    padding: 10px 15px;
+
+}.hhead{
+    margin-bottom: 10px;
+}.headblue{
+    background-color: rgb(57, 159, 242);
+    color:white;
+    height: 125px;
+    width:230px;
+    padding: 13px;display: flex;align-items: center;justify-content: center;
+}.headgreen{
+    background-color: rgb(11, 209, 123);
+    color:white;
+    height: 125px;
+    width:230px;
+    padding: 13px;display: flex;align-items: center;justify-content: center;
+}.headblack{
+    background-color: black;
+    color:white;
+    height: 125px;
+    width:230px;
+    padding: 13px;display: flex;align-items: center;justify-content: center;
+}.left-sidebar{
+    background-color: rgb(133, 126, 153);
+    color:white;
+    height:325px;
+    width:230px;
+    padding: 130px 25px;
+    align-items: center;justify-content: center;
+}.middle-content{
+    background-color: black;
+    color:white;
+    height:145px;
+    padding: 100px 50px;display:flex; flex-direction: column;justify-content: center;
+}.right-sidebar{
+    background-color: rgb(133, 126, 153);
+    color:white;
+    height:325px;
+    width:230px;
+    padding: 130px 25px;
+    align-items: center;justify-content: center;
+}.headblueside{
+    background-color: rgb(57, 159, 242);
+    color:white;
+    height: 125px;
+    width:230px;
+    padding: 13px;display: flex;flex-direction:column;justify-content: center;
+}.headgreenside{
+    background-color: rgb(11, 209, 123);
+    color:white;
+    height: 125px;
+    width:230px;
+    padding: 13px;display: flex;align-items: center;justify-content: center;
+}.middle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 425px;
+    text-align: left;
+}
